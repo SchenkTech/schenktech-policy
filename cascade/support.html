@@ -32,15 +32,16 @@
     <h1>Cascade!</h1>
     <p class="tagline">Chain Reactions in Every Swipe</p>
 
-    <p>Cascade! is a sliding number puzzle where consecutive numbers merge. Swipe to slide all tiles — when a 3 lands next to a 4, they merge into 7. When that 7 lands next to an 8, they merge into 15. A single swipe can set off a chain of merges. That's a cascade.</p>
+    <p>Cascade! is a sliding number puzzle where tiles merge into their sum. Swipe to slide all tiles — two equal tiles double (2 + 2 = 4), and two consecutive tiles combine (3 + 4 = 7, then 7 + 8 = 15). A single swipe can set off several merges at once. That's a cascade.</p>
 
     <h2>How to Play</h2>
     <ul>
         <li>Swipe in any direction to slide all tiles simultaneously.</li>
-        <li>Two tiles merge when they are <strong>consecutive integers</strong> — one apart in value (e.g. 3 &amp; 4, 7 &amp; 8, 15 &amp; 16).</li>
-        <li>After a merge, if the resulting tile is now consecutive with its new neighbor, they merge too — creating a chain reaction.</li>
+        <li>Two tiles merge when their values are <strong>equal or consecutive</strong> — they differ by 0 or 1 (e.g. 2 &amp; 2, 3 &amp; 4, 7 &amp; 8). The merged tile is their sum.</li>
+        <li>Equal tiles double to build the even numbers; consecutive tiles cascade toward the target tile.</li>
+        <li>A single swipe can trigger several merges along a row or column at once.</li>
         <li>A new tile spawns after each swipe that moves at least one tile.</li>
-        <li>The game ends when the board is full and no consecutive pairs remain adjacent.</li>
+        <li>The game ends when the board is full and no matching or consecutive pairs remain adjacent.</li>
     </ul>
 
     <h2>Game Modes</h2>
@@ -48,16 +49,16 @@
     <h3>Campaign</h3>
     <p>120 hand-crafted levels across 10 worlds. Each world introduces a new challenge. Earn up to 3 stars per level. Unlock new worlds by earning enough stars across previous ones.</p>
 
-    <h3>Classic</h3>
-    <p>Endless play on a 4&times;4 grid. Swipe until the board fills and no moves remain. Your goal: reach the highest tile value and best score you can.</p>
+    <h3>Zen</h3>
+    <p>Endless play with no move-limit pressure. Difficulty scales with your streak, and your best streak is saved. Your goal: reach the highest tile value and best score you can.</p>
 
     <h3>Daily Challenge</h3>
-    <p>One shared puzzle per day. Everyone plays the same board. Scores are posted to the global Game Center leaderboard.</p>
+    <p>One shared puzzle per day, seeded from the date so everyone plays the same board. Scores are posted to the global Game Center leaderboard.</p>
 
     <h2>Frequently Asked Questions</h2>
 
-    <h3>Why don't equal tiles merge?</h3>
-    <p>Cascade! uses a consecutive-integer rule, not an equal-value rule. Only tiles that differ by exactly 1 merge (e.g. 3+4=7, not 4+4=8). This is the core mechanic that makes Cascade! different from 2048-style games.</p>
+    <h3>Which tiles merge?</h3>
+    <p>Two tiles merge when their values are equal or consecutive — they differ by 0 or 1 — and the merged tile is their sum. So 2 and 2 make 4, and 3 and 4 make 7. Tiles that differ by 2 or more do not merge. This sum-based rule is what makes Cascade! different from 2048-style games.</p>
 
     <h3>How do I unlock new worlds in Campaign?</h3>
     <p>Each world (except the first) requires a minimum total star count from earlier worlds to unlock. Replay earlier levels to earn more stars if you're stuck.</p>
@@ -69,7 +70,7 @@
     <p>Yes. All game modes work fully offline. iCloud sync and Game Center leaderboards require a connection but are never required to play.</p>
 
     <h3>How do I reset my progress?</h3>
-    <p>Open Settings (gear icon on the main screen) and tap <strong>Reset All Data</strong>. You will be asked to confirm before anything is deleted. This also clears iCloud sync data for this app.</p>
+    <p>Open Settings from the main menu and tap <strong>Reset All Progress</strong>. You will be asked to confirm before anything is deleted.</p>
 
     <h3>My score didn't appear on the leaderboard — what happened?</h3>
     <p>Leaderboard scores require an active Game Center connection. If you were offline when you finished, the score will be submitted automatically the next time you open the app with a connection.</p>
