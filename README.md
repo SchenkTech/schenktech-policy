@@ -26,9 +26,15 @@ Copy these URLs directly into each app's App Store Connect listing.
 - **Privacy Policy:** `https://schenktech.github.io/schenktech-policy/grains/privacy.html`
 - **Support URL:** `https://schenktech.github.io/schenktech-policy/grains/support.html`
 
+### Comicpendium
+
+- **Privacy Policy:** `https://schenktech.github.io/schenktech-policy/comicpendium/privacy.html`
+- **Support URL:** `https://schenktech.github.io/schenktech-policy/comicpendium/support.html`
+
 ## Apps
 
 - [Fulcrum](https://github.com/SchenkTech/fulcrum) — A physics-based balance puzzle game
 - [Gravity Arc](https://github.com/SchenkTech/gravity-arc) — A gravity well puzzle game
 - [Cracks](https://github.com/SchenkTech/cracks) — A tile-decay match-3 puzzle game
 - [Grains](https://github.com/SchenkTech/grains) — A micro-journal app
+- [Comicpendium](https://github.com/SchenkTech/comicpendium) — A comic reading-order tracker

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comicpendium - Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { font-size: 1.8rem; }
+        h2 { font-size: 1.3rem; margin-top: 2rem; }
+        h3 { font-size: 1.05rem; margin-top: 1.4rem; }
+        p { margin: 0.8rem 0; }
+        ul { padding-left: 1.5rem; }
+        li { margin: 0.4rem 0; }
+        a { color: #0066cc; }
+    </style>
+</head>
+<body>
+    <h1>Comicpendium - Support</h1>
+
+    <p>Comicpendium tracks the order you read comics in across universes, shows what to read next, and alerts you to new releases. Connecting your own Komga or Kavita server is optional and adds owned/missing status and a built-in reader.</p>
+
+    <h2>Common Questions</h2>
+
+    <h3>Do I need a server or an account?</h3>
+    <p>No. Reading lists, progress, Up Next, and a free sample comic all work without any server or account. A free <a href="https://metron.cloud">Metron</a> account adds comic details, covers, and release dates. Komga or Kavita adds which issues you own and a reader for them. The App contains no comics of its own besides the free sample.</p>
+
+    <h3>How do I connect Komga or Kavita?</h3>
+    <p>In Settings, choose "Add a Komga or Kavita server". Enter the server's base address (for example <code>http://192.168.1.20:25600</code>, with no path after it) and an API key from the server's own settings. A brand-new Kavita key can take a minute or two before it works. If your server is on your home network, allow the Local Network permission when iOS asks.</p>
+
+    <h3>Why are my comics listed under "Needs review" or not marked as owned?</h3>
+    <p>The App matches your server's files to reading-list issues by series name, start year, and issue number. If the match is uncertain, it asks you instead of guessing. Putting the year in the series name (for example "Darth Vader (2017)") or in a volume folder (for example "Volume 02 (2017)") lets it match automatically. Collected editions (trade paperbacks) cannot yet be matched to single issues. "Confirm all" on the Needs review screen accepts same-name matches in one step.</p>
+
+    <h3>How do I use the reader?</h3>
+    <ul>
+        <li>Tap the left or right edge of the page to turn it, and the middle to show or hide the controls.</li>
+        <li>Pinch or double-tap to zoom. Turn your device sideways to see two pages at a time.</li>
+        <li>The menu (the three dots) lets you choose the page-turn style (page curl, slide, or fade), reading direction for manga, and an optional "Panel by panel" mode that zooms from one panel to the next.</li>
+    </ul>
+
+    <h3>How do downloads and storage work?</h3>
+    <p>Opening an issue also saves it on your device so it opens quickly and works offline. Downloads default to a 2 GB limit, Wi-Fi only, and finished issues are removed after a day. You can change all of this in Settings, under Downloads.</p>
+
+    <h3>How does iCloud sync work?</h3>
+    <p>With iCloud on, your lists, series, and progress sync between your devices. Server addresses and keys stay on each device unless you turn on "Keep on my other devices" for a server.</p>
+
+    <h3>Why don't I get release alerts?</h3>
+    <p>Alerts need a Metron account (for release dates), notification permission, and the alert option turned on in Settings. iOS decides when background refresh runs, so alerts are best effort.</p>
+
+    <h2>Report a Problem or Suggest a Feature</h2>
+    <p>Open an issue on our <a href="https://github.com/SchenkTech/schenktech-policy/issues">GitHub repository</a>. Please say which device and iOS version you use, and what you expected to happen.</p>
+
+    <h2>Credits</h2>
+    <ul>
+        <li>Cover images and metadata courtesy of <a href="https://metron.cloud">Metron Project</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</li>
+        <li>Sample comic: <a href="https://www.peppercarrot.com">Pepper&amp;Carrot</a> by David Revoy, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</li>
+        <li>Comicpendium is not affiliated with or endorsed by Metron, Comic Vine, Komga, Kavita, or any publisher. Names and trademarks belong to their owners.</li>
+    </ul>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+</body>
+</html>
